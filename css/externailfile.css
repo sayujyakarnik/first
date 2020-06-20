@@ -1,0 +1,30 @@
+body{
+  background-color: #333;
+}
+
+
+img{
+
+  width:200px;
+  border-radius: 100%;
+}
+
+
+hr{
+  border-style: none;
+border-color:gray;
+ width:10%;
+ border-width: 5px;
+ border-top-style: dotted;
+
+}
+h1{
+  padding-left: 10px;
+  color: purple
+}
+h2{
+  font-size: 40px;
+}
+p{
+  color: white;
+}

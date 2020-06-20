@@ -1,0 +1,47 @@
+div{
+  background-color: #709fb0;
+
+}
+body{
+  margin: 0;
+background-color: lightblue;
+}
+h1{
+  margin-top: 0;
+  font-style: oblique;
+  padding-top: 40px;
+
+}
+p{
+  padding-left: 750px;
+  color: white
+}
+.topa{
+  background-color: green;
+  display: inline-block;
+height: 200px;
+width: 1000px;
+position: relative;
+left: 100px;
+}
+.middle{
+  background-color: red;
+    display: inline-block;
+    height: 200px;
+    width: 300px;
+    position: relative;
+    left: 150px;
+}
+.bottom{
+  background-color: blue;
+    display: inline-flex;
+    height: 200px;
+    width: 300px;
+    position: relative;
+right:  300px;
+}
+img{
+  background-color: white;
+  height: 100px;
+  width: 100px;
+}
