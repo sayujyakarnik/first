@@ -24,6 +24,7 @@ h3 {
   font-family: helvetica, sans-serif;
   display: inline-block;
   color: #eedad1;
+  margin: 50px auto;
 }
 
 h4 {
@@ -34,56 +35,102 @@ h4 {
   color: #eedad1;
   word-spacing: 1px;
 }
-
-.n {
-  position: static;
-}
-
 p {
   padding-left: 750px;
   color: #eeeeee;
   font-family: 'Poppins', sans-serif;
 }
-
-.top {
-  position: relative;
-  height: 350px;
+hr {
+  border-style: none;
+  border-color: gray;
+  width: 10%;
+  border-width: 5px;
+  border-top-style: dotted;
+}
+a{
+  color: #eedad1;
+  text-decoration: none;
+  font-family: helvetica, sans-serif;
 }
 
-img {
+header{
+
+}
+img{
   height: 100px;
   width: 100px;
 }
+.wo{
+  display: inline-block;
+}
+.flag1{
+  display: inline-inline-block;
+
+}
+.flag2{
+    display: inline-inline-block;
+
+}
+.home-a{
+  padding-top: 5px;
+  position: absolute;
+  right: 20%;
+  font-size: 25px;
+}
+.work-a{
+  padding-top: 5px;
+  position: absolute;
+  right: 15%;
+  font-size: 25px;
+}
+.n {
+  position: static;
+}
+.top {
+  position: relative;
+  height: 400px;
+}
+.top-person{
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  left: 10%;
+}
+
 
 .top_cloud {
   background-color: #222831;
   position: absolute;
-  left: 65%;
-  top: 30px;
+  left: 70%;
+  top: 50px;
 }
 
 .bottom_cloud {
   background-color: #222831;
   position: absolute;
-  left: 40%;
+  left: 30%;
 }
 
 .webdeveloper {
   width: 10%;
   position: absolute;
   left: 35%;
+  bottom: 200px;
 }
 
 .csss {
   width: 10%;
   position: absolute;
   right: 10%;
+  bottom: 5px;
 }
 
 .batter {
   width: 10%;
   position: absolute;
   left: 35%;
+
+
 }
 
 .photo {
@@ -131,12 +178,4 @@ img {
 
 .follow:active {
   padding-top: 2px;
-}
-
-hr {
-  border-style: none;
-  border-color: gray;
-  width: 10%;
-  border-width: 5px;
-  border-top-style: dotted;
 }
