@@ -1,3 +1,58 @@
 body{
-  background-color: red ;
+  font-family:Montserrat;
+}
+.main-container{
+  background-color: orange;
+}
+.navbar{
+
+  background-color:orange
+}
+.mealpluslogo{
+  height: 100px;
+
+}
+.navbar-brand{
+  font-size:2rem;
+}
+.colapse{
+  font-size:2rem;
+}
+.button{
+  background-color:#7B1FA2;
+  color: #F3E5F5 ;
+
+}
+.row{
+  padding:5% 3%
+}
+.main-h1{
+  margin: 5%;
+  font-size:3.5rem;
+   line-height: 1.5;
+   color: #fff;
+}
+.btn{
+margin: 5%;
+}
+.mealplus{
+  height: 600px;
+  transform:rotate(25deg)
+}
+.easy{
+  color: blue;
+  font-size: 100px;
+  margin: 10px;
+}
+h3{
+  font-size: 1.2rem;
+  font-family: Montserrat;
+}
+
+.testimonial{
+  background-color: #ef8172 ;
+  font-family: Montserrat;
+  font-size: 3rem;
+  line-height: 1.5;
+
 }
