@@ -23,7 +23,7 @@ body{
   color: #F3E5F5 ;
 
 }
-.row{
+.rowt{
   padding:5% 3%
 }
 .main-h1{
@@ -37,12 +37,17 @@ margin: 5%;
 }
 .mealplus{
   height: 600px;
-  transform:rotate(25deg)
+  transform:rotate(12.5deg)
 }
 .easy{
   color: blue;
   font-size: 100px;
   margin: 10px;
+}
+h2{
+  font-family: Montserrat;
+font-size: 3rem;
+  line-height: 1.5;
 }
 h3{
   font-size: 1.2rem;
@@ -50,9 +55,16 @@ h3{
 }
 
 .testimonial{
-  background-color: #ef8172 ;
-  font-family: Montserrat;
-  font-size: 3rem;
-  line-height: 1.5;
 
+  background-color: #ef8172 ;
+}
+.person{
+  height: 100px;
+  width: 100px;
+}
+.carousel-item{
+  padding: 7% 15% ;
+}
+.card-deck{
+  width: 1000px;
 }
