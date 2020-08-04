@@ -1,3 +1,8 @@
+
+html{
+  scroll-behavior: smooth;
+}
+
 body{
   font-family:Montserrat;
 }
@@ -7,6 +12,9 @@ body{
 .navbar{
 
   background-color:orange
+}
+.nav-item{
+  font-size: 1.2rem;
 }
 .mealpluslogo{
   height: 100px;
@@ -32,12 +40,20 @@ body{
    line-height: 1.5;
    color: #fff;
 }
-.btn{
+.btn-download{
 margin: 5%;
 }
 .mealplus{
+  position: absolute;
+
   height: 600px;
   transform:rotate(12.5deg)
+
+}
+#feature{
+  position: relative;
+  z-index: 1;
+  background-color:#fff;
 }
 .easy{
   color: blue;
@@ -56,7 +72,7 @@ h3{
 
 .testimonial{
 
-  background-color: #ef8172 ;
+  background-color: lightblue ;
 }
 .person{
   height: 100px;
@@ -67,4 +83,21 @@ h3{
 }
 .card-deck{
   width: 1000px;
+}
+#pricing{
+  padding: 7% 7% ;
+  text-align: center;
+}
+.mcard{
+  margin: 3%
+}
+@media(max-width:900px) {
+
+  .main-container{
+    text-align: center;
+  }
+  .mealplus{
+    position: static;
+    transform: rotate(0);
+  }
 }
